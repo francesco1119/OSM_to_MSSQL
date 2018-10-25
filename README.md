@@ -1,4 +1,4 @@
-<p style="text-align:center">This line will be centered.<br>
+<p align="center">
 And so will this line.</p> 
 
 # OSM_to_MSSQL
