@@ -1,6 +1,7 @@
+<p align="center">
 # OSM_to_MSSQL
 Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`
-
+</p>
 
 The Story
 ------
