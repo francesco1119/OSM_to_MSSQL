@@ -7,7 +7,7 @@
 <p align="center">
 
   <h2 align="center">OSM_to_MSSQL</h2>
-  <p align="center">Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. BOOM!!!</p>
+  <p align="center">Import OSM to MSSQL on SSMS and retrieve JSON through T-SQL with an HTTP request. BOOM!!!</p>
 
 </p>
 
@@ -30,6 +30,8 @@ How to use
 #### Troubleshooting:
 
 If you run into troubles set `DECLARE @Debug as Int = 1`. Options are 0 = OFF, 1 = ON
+Edit the `@URL` and paste there your favourite HTTP call. You can find a few examples [here](http://harrywood.co.uk/maps/uixapi/xapi.html) 
+In the `@URL` you can also set the [amenity](https://wiki.openstreetmap.org/wiki/Key:amenity).
 
 How it works under the hood
 ------
