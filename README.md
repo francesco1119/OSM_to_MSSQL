@@ -1,13 +1,14 @@
-<p align="center">
-  <img alt="Arc Logo" src="https://raw.githubusercontent.com/evilsocket/arc/master/arc/img/logo.png" height="140" />
-  <h2 align="center">OSM_to_MSSQL</h2>
-  <p align="center">Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`</p>
   <p align="center">
 <a href="https://github.com/francesco1119/OSM_to_MSSQL/issues"><img alt="issues" src="https://img.shields.io/github/issues/francesco1119/OSM_to_MSSQL.svg"></a>
 <a href="https://github.com/francesco1119/OSM_to_MSSQL/network"><img alt="network" src="https://img.shields.io/github/forks/francesco1119/OSM_to_MSSQL.svg"></a>
 <a href="https://github.com/francesco1119/OSM_to_MSSQL/stargazers"><img alt="stargazers" src="https://img.shields.io/github/stars/francesco1119/OSM_to_MSSQL.svg"></a>
 <a href="https://github.com/francesco1119/OSM_to_MSSQL/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/francesco1119/OSM_to_MSSQL.svg"></a>
   </p>
+<p align="center">
+  <img alt="Arc Logo" src="https://raw.githubusercontent.com/evilsocket/arc/master/arc/img/logo.png" height="140" />
+  <h2 align="center">OSM_to_MSSQL</h2>
+  <p align="center">Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`</p>
+
 </p>
 
 The Story
