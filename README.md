@@ -1,6 +1,6 @@
 
-<center>This text will be center-aligned.</center> 
- 
+<div style="text-align:center">This text will be centered.
+<p>So will this paragraph.</p></div> 
 
 # OSM_to_MSSQL
 Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`
