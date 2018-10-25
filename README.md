@@ -3,16 +3,12 @@
   <h2 align="center">OSM_to_MSSQL</h2>
   <p align="center">Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`</p>
   <p align="center">
-    <a href="https://github.com/evilsocket/arc/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/evilsocket/arc.svg?style=flat-square"></a>
-    <a href="/LICENSE"><img alt="Software License" src="https://img.shields.io/badge/license-GPL3-brightgreen.svg?style=flat-square"></a>
-    <a href="https://travis-ci.org/evilsocket/arc"><img alt="Travis" src="https://img.shields.io/travis/evilsocket/arc/master.svg?style=flat-square"></a>
-    <a href="https://goreportcard.com/report/github.com/evilsocket/arc"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/evilsocket/arc?style=flat-square"></a>
+<a href="https://github.com/francesco1119/OSM_to_MSSQL/issues"><img alt="issues" src="https://img.shields.io/github/issues/francesco1119/OSM_to_MSSQL.svg"></a>
+<a href="https://github.com/francesco1119/OSM_to_MSSQL/network"><img alt="network" src="https://img.shields.io/github/forks/francesco1119/OSM_to_MSSQL.svg"></a>
+<a href="https://github.com/francesco1119/OSM_to_MSSQL/stargazers"><img alt="stargazers" src="https://img.shields.io/github/stars/francesco1119/OSM_to_MSSQL.svg"></a>
+<a href="https://github.com/francesco1119/OSM_to_MSSQL/blob/master/LICENSE"><img alt="LICENSE" src="https://img.shields.io/github/license/francesco1119/OSM_to_MSSQL.svg"></a>
   </p>
 </p>
-
-# OSM_to_MSSQL
-Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`
-
 
 The Story
 ------
