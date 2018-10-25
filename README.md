@@ -45,7 +45,7 @@ Let's have an argument
 
 OSM_to_MSSQL is using `sp_OACreate` and `MSXML2.ServerXMLHTTP.6.0` to create the request.
 Using `sp_OACreate` is considered bad practice and `MSXML2.ServerXMLHTTP.6.0` is deprecated.
-Of you are **not OK** with that you can use [SQLCRL](http://www.sqlservercentral.com/articles/SQLCLR/177834/) but don't think not even for a second that this will be safer or it will query the API better or faster or it will provide a safe place in Heaven.
+Of you are **not OK** with that you can use [SQLCRL](http://www.sqlservercentral.com/articles/SQLCLR/177834/) but don't think not even for a second that this will be safer or it will query the API better or faster or it will provide you a safe place in Heaven.
 
 Future developent
 ------
