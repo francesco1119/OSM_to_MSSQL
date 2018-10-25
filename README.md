@@ -11,7 +11,7 @@ The idea became even more challenging when people start blathering that it was i
 
 At that stage it became personal and I started coding. 
 
-How to use
+##How to use
 ======
 
 1) Download the query in attach and paste it into SSMS.
