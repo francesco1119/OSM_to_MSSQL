@@ -29,9 +29,9 @@ How to use
 
 #### Troubleshooting:
 
-If you run into troubles set `DECLARE @Debug as Int = 1`. Options are 0 = OFF, 1 = ON
-Edit the `@URL` and paste there your favourite HTTP call. You can find a few examples [here](http://harrywood.co.uk/maps/uixapi/xapi.html) 
-In the `@URL` you can also set the [amenity](https://wiki.openstreetmap.org/wiki/Key:amenity).
+- If you run into troubles set `DECLARE @Debug as Int = 1`. Options are 0 = OFF, 1 = ON
+- Edit the `@URL` and paste there your favourite API call. You can find a few examples [here](http://harrywood.co.uk/maps/uixapi/xapi.html) or use [overpass-turbo.eu](http://overpass-turbo.eu/) to customize your query or cusult the [official API](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)
+- In the `@URL` you can also set the [amenity](https://wiki.openstreetmap.org/wiki/Key:amenity).
 
 How it works under the hood
 ------
