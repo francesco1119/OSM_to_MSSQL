@@ -3,7 +3,7 @@ Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`
 
 
 The Story
-======
+------
 
 The idea to build a simple way to import Open Street Map to Microsoft SQL Server was born after [this post](https://gis.stackexchange.com/questions/172399/downloading-entire-osm-world-dataset-and-import-into-ms-sql) when I tragically realised that there was no current way to import easily and on the fly OSM to MSSQL.
 
@@ -11,8 +11,8 @@ The idea became even more challenging when people start blathering that it was i
 
 At that stage it became personal and I started coding. 
 
-##How to use
-======
+How to use
+------
 
 1) Download the query in attach and paste it into SSMS.
 2) Edit `DECLARE @place as NVARCHAR(30) = 'Paris'` and instead of `Paris` put `Barcelona` or `Spain` or whatever.
