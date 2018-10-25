@@ -1,4 +1,7 @@
- <center>This text will be center-aligned.</center> 
+
+<center>This text will be center-aligned.</center> 
+ 
+
 # OSM_to_MSSQL
 Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`
 
