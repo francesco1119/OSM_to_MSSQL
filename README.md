@@ -1,5 +1,5 @@
 <p align="center">
-<h2>OSM_to_MSSQL</h2><br>
+OSM_to_MSSQL<br>
 Import OSM to MSSQL on SSMS through T-SQL with an HTTP request. `BOOM!!!`
 </p> 
 
