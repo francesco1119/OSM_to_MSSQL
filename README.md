@@ -23,9 +23,17 @@ At that stage it became personal and I started coding.
 How to use
 ------
 
-1) Download the query in attach and paste it into SSMS.
-2) Edit `DECLARE @place as NVARCHAR(30) = 'Paris'` and instead of `Paris` put `Barcelona` or `Spain` or whatever.
-3) Press `F5` or run the query your own way.
+1) Open SSMS  and enable Ole Automation Procedures running this query:
+`sp_configure 'show advanced options', 1;  
+GO  
+RECONFIGURE;  
+GO  
+sp_configure 'Ole Automation Procedures', 1;  
+GO  
+RECONFIGURE;  
+GO`
+2) Download the query in attach and paste it into SSMS.
+3) Edit `DECLARE @place as NVARCHAR(30) = 'Paris'` and instead of `Paris` put `Barcelona` or `Spain` or whatever and run the query
 
 #### Troubleshooting:
 
