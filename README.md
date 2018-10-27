@@ -48,7 +48,9 @@ How it works under the hood
 ------
 
 Every time you run the query OSM_to_MSSQL creates a table called `'OSM_' + @amenity + '_' + @place`.
+
 Re-running the query will drop the old table and recreate a new one so yes, you can stick this query into a stored procedure and your data can be fresh new every day. 
+
 How cool is that? 
 
 Let's have an argument 
