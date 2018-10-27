@@ -24,14 +24,16 @@ How to use
 ------
 
 1) Open SSMS  and enable Ole Automation Procedures running this query:
-`sp_configure 'show advanced options', 1;  
+```
+sp_configure 'show advanced options', 1;  
 GO  
 RECONFIGURE;  
 GO  
 sp_configure 'Ole Automation Procedures', 1;  
 GO  
 RECONFIGURE;  
-GO`
+GO
+```
 2) Download the query in attach and paste it into SSMS.
 3) Edit `DECLARE @place as NVARCHAR(30) = 'Paris'` and instead of `Paris` put `Barcelona` or `Spain` or whatever and run the query
 
