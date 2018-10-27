@@ -3,8 +3,9 @@ DECLARE @hr as Int;
 DECLARE @Debug as Int = 0							-- Options are 0 = OFF, 1 = ON
 DECLARE @json as table(Json_Table NVARCHAR(MAX))		
 DECLARE @place as NVARCHAR(30) = 'Paris'			-- Set here your taget place
-DECLARE @TableName as NVARCHAR(35) = 'OSM_' + @place			
-DECLARE @URL as VARCHAR(MAX)=FORMATMESSAGE('http://overpass-api.de/api/interpreter?data=[out:json];area[name="%s"]->.a;(node(area.a)[amenity=cinema];way(area.a)[amenity=cinema];rel(area.a)[amenity=cinema];);out;',@place) ;
+DECLARE @amenity as NVARCHAR(30) = 'cinema'			-- Set here your taget place
+DECLARE @TableName as NVARCHAR(35) = 'OSM_' + @amenity + '_' + @place			
+DECLARE @URL as VARCHAR(MAX)=FORMATMESSAGE('http://overpass-api.de/api/interpreter?data=[out:json];area[name="%s"]->.a;(node(area.a)[amenity="%s"];);out;',@place,@amenity) ;
 
 EXEC @hr=sp_OACreate 'MSXML2.ServerXMLHTTP.6.0', @Object OUT;					-- Use MSXML2.dll (https://support.microsoft.com/en-nz/help/269238/list-of-microsoft-xml-parser-msxml-versions)
 IF @Debug = 1 BEGIN IF @hr <> 0 EXEC sp_OAGetErrorInfo @Object END
@@ -77,4 +78,3 @@ EXEC (@sql)
 
 EXEC('SELECT * FROM ' + @TableName)
 DROP TABLE IF EXISTS dbo. #TempTable
-
