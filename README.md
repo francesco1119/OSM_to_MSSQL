@@ -35,18 +35,19 @@ RECONFIGURE;
 GO
 ```
 2) Download the query in attach and paste it into SSMS.
-3) Edit `DECLARE @place as NVARCHAR(30) = 'Paris'` and instead of `Paris` put `Barcelona` or `Spain` or whatever and run the query
+3) Edit `DECLARE @place as NVARCHAR(30) = 'Paris'` and instead of `Paris` put `Barcelona` or `Spain` or whatever
+4) Edit `DECLARE @amenity as NVARCHAR(30) = 'cinema'` and put whatever you want from the list of the [amenities](https://wiki.openstreetmap.org/wiki/Key:amenity)
+5) Press `F5` and run the query
 
 #### Troubleshooting:
 
 - If you run into troubles set `DECLARE @Debug as Int = 1`. Options are 0 = OFF, 1 = ON
-- Edit the `@URL` and paste there your favourite API call. You can find a few examples [here](http://harrywood.co.uk/maps/uixapi/xapi.html) or use [overpass-turbo.eu](http://overpass-turbo.eu/) to customize your query or cusult the [official API](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)
-- In the `@URL` you can also set the [amenity](https://wiki.openstreetmap.org/wiki/Key:amenity).
+- Flick e-mails if you feel in troubles
 
 How it works under the hood
 ------
 
-Every time you run the query OSM_to_MSSQL creates a table called `'OSM_' + @place`.
+Every time you run the query OSM_to_MSSQL creates a table called `'OSM_' + @amenity + '_' + @place`.
 Re-running the query will drop the old table and recreate a new one so yes, you can stick this query into a stored procedure and your data can be fresh new every day. 
 How cool is that? 
 
@@ -62,11 +63,11 @@ Future developent
 
 On spare time my TODO list is:
 
-* Create the variable `@amenity`
 * Brake the `@URL` into: 
     - node(area.a)[amenity=cinema]
     - way(area.a)[amenity=cinema]
     - rel(area.a)[amenity=cinema]
+* Eventually provide development for `MSXML6` call
  
 
 
