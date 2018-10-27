@@ -41,11 +41,11 @@ GO
 
 #### Troubleshooting:
 
-- If you run into troubles set `DECLARE @Debug as Int = 1`. Options are 0 = OFF, 1 = ON
-- This SQL query is basically a REST call so use your fantasy to create a new one. Here some examples: 
-* [Overpass API/Overpass API by Example](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)
-* [Overpass API/Overpass QL](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL)
-* [examples here](https://www.mapbox.com/mapping/becoming-a-power-mapper/useful-overpass-queries/)
+* If you run into troubles set `DECLARE @Debug as Int = 1`. Options are 0 = OFF, 1 = ON
+* This SQL query is basically a REST call so use your fantasy to create a new one. Here some examples: 
+  - [Overpass API/Overpass API by Example](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_API_by_Example)
+  - [Overpass API/Overpass QL](https://wiki.openstreetmap.org/wiki/Overpass_API/Overpass_QL)
+  - [Useful Overpass queries](https://www.mapbox.com/mapping/becoming-a-power-mapper/useful-overpass-queries/)
 
 
 
