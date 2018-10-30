@@ -63,7 +63,7 @@ Let's have an argument
 
 OSM_to_MSSQL is using `sp_OACreate` and `MSXML2.ServerXMLHTTP.6.0` to create the request.
 Using `sp_OACreate` is considered bad practice and `MSXML2.ServerXMLHTTP.6.0` is deprecated.
-Of you are **not OK** with that you can use [SQLCRL](http://www.sqlservercentral.com/articles/SQLCLR/177834/) but don't think not even for a second that this will be safer or it will query the API better or faster or it will provide you a safe place in Heaven.
+If you are **not OK** with that you can use [SQLCRL](http://www.sqlservercentral.com/articles/SQLCLR/177834/) but don't think not even for a second that this will be safer or it will query the API better or faster or it will provide you a place in Heaven.
 
 Future developent
 ------
@@ -74,6 +74,7 @@ On spare time my TODO list is:
     - node(area.a)[amenity=cinema]
     - way(area.a)[amenity=cinema]
     - rel(area.a)[amenity=cinema]
+* Eventually create [{{bbox}} URL](http://overpass-api.de/api/interpreter?data=[out:json][bbox];node[amenity=cinema];out;&bbox=7.0,50.6,7.3,50.8) for retrieve data from all over the World ([bbox=-180,-90,180,90])
 * Eventually provide development for `MSXML6` call
  
 
